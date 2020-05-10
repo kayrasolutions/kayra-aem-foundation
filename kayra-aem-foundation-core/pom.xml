@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
-        <groupId>com.kayra.aem.foundation</groupId>
+        <groupId>com.kayrasolutions.aem.foundation</groupId>
         <artifactId>kayra-aem-foundation</artifactId>
         <version>1.2.0-SNAPSHOT</version>
     </parent>
@@ -24,8 +24,8 @@
                     <instructions>
                         <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
                         <Bundle-Name>${project.name}</Bundle-Name>
-                        <Export-Package>!*.impl,com.kayra.aem.foundation.core.*</Export-Package>
-                        <Sling-Model-Packages>com.kayra.aem.foundation.core</Sling-Model-Packages>
+                        <Export-Package>!*.impl,com.kayrasolutions.aem.foundation.core.*</Export-Package>
+                        <Sling-Model-Packages>com.kayrasolutions.aem.foundation.core</Sling-Model-Packages>
                     </instructions>
                 </configuration>
             </plugin>
@@ -41,8 +41,8 @@
                     <outputDirectory>${project.parent.reporting.outputDirectory}/cobertura</outputDirectory>
                     <instrumentation>
                         <excludes>
-                            <exclude>com/kayra/aem/foundation/core/components/*</exclude>
-                            <exclude>com/kayra/aem/foundation/core/constants/*</exclude>
+                            <exclude>com/kayrasolutions/aem/foundation/core/components/*</exclude>
+                            <exclude>com/kayrasolutions/aem/foundation/core/constants/*</exclude>
                         </excludes>
                         <ignoreTrivial>true</ignoreTrivial>
                     </instrumentation>
@@ -184,7 +184,7 @@
 
         <!-- avionos foundation -->
         <dependency>
-            <groupId>com.kayra.aem.foundation</groupId>
+            <groupId>com.kayrasolutions.aem.foundation</groupId>
             <artifactId>kayra-aem-foundation-api</artifactId>
             <version>${project.parent.version}</version>
             <scope>provided</scope>

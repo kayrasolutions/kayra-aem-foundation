@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.kayra.aem.foundation</groupId>
+    <groupId>com.kayrasolutions.aem.foundation</groupId>
     <artifactId>kayra-aem-foundation</artifactId>
     <packaging>pom</packaging>
     <version>1.2.0-SNAPSHOT</version>
@@ -221,8 +221,8 @@
                             <configuration>
                                 <excludePackageNames>
                                     *.impl,
-                                    com.kayra.aem.foundation.core.adapter,
-                                    com.kayra.aem.foundation.injectors.utils
+                                    com.kayrasolutions.aem.foundation.core.adapter,
+                                    com.kayrasolutions.aem.foundation.injectors.utils
                                 </excludePackageNames>
                                 <links>
                                     <link>http://docs.oracle.com/javase/8/docs/api/</link>
@@ -378,8 +378,8 @@
                 <configuration>
                     <excludePackageNames>
                         *.impl,
-                        com.kayra.aem.foundation.core.adapter,
-                        com.kayra.aem.foundation.injectors.utils
+                        com.kayrasolutions.aem.foundation.core.adapter,
+                        com.kayrasolutions.aem.foundation.injectors.utils
                     </excludePackageNames>
                     <links>
                         <link>http://docs.oracle.com/javase/8/docs/api/</link>
