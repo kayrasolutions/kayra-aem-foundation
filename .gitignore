@@ -1,0 +1,107 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.dll
+*.lib
+*.sbr
+#Ignore Eclipse settings files
+*.prefs
+#Ignore bin and target
+bin/
+target/
+build/
+*.factorypath
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.apt_generated/
+.apt_generated_tests/
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+.editorconfig
+typings/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# compiled output
+dist/
+tmp/
+out-tsc/
+
+# dependencies
+node_modules/
+node/
+package-lock.json
+market-ui/src/main/content/jcr_root/etc/designs/market/*.css
+market-ui/src/main/content/jcr_root/etc/designs/market/*.js
+market-ui/src/main/content/jcr_root/etc/designs/market/*.map
+market-ui/src/main/content/jcr_root/etc/designs/market/*.ico
+market-ui/src/main/content/jcr_root/etc/designs/market/*.svg
+market-ui/src/main/content/jcr_root/etc/designs/market/*.png
+market-ui/src/main/content/jcr_root/etc/designs/market/*.ttf
+market-ui/src/main/content/jcr_root/etc/designs/market/*.woff
+market-ui/src/main/content/jcr_root/etc/designs/market/*.woff2
+market-ui/src/main/content/jcr_root/etc/designs/market/*.otf
+market-ui/src/main/content/jcr_root/etc/designs/market/*.eot
+market-ui/src/main/content/jcr_root/etc/designs/market/fonts/
+market-ui/src/main/content/jcr_root/etc/designs/market/webcomponents/
+
+.DS_Store
+market-ui/.DS_Store
+market-ui/src/.DS_Store
+market-ui/src/main/.DS_Store
+market-ui/src/main/content/.DS_Store
+market-ui/src/main/content/jcr_root/.DS_Store
+market-ui/src/main/content/jcr_root/apps/.DS_Store
+market-ui/src/main/content/jcr_root/apps/market/.DS_Store
+market-ui/src/main/content/jcr_root/apps/market/templates/.DS_Store
+market-ui/src/main/design/**/component.generated.js
+
+*.log
+.vscode
+.cache
+
+market-ui/src/main/content/jcr_root/etc/designs/market/ajax-loader.*.gif
+market-ui/src/main/content/jcr_root/etc/designs/market/css_sprites.*.png
+## Angular app
+market-ui/src/main/content/jcr_root/apps/wknd-events/clientlibs/market-app/
