@@ -4,7 +4,7 @@
     <groupId>com.kayrasolutions.aem.foundation</groupId>
     <artifactId>kayra-aem-foundation</artifactId>
     <packaging>pom</packaging>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <name>Kayra AEM Foundation</name>
     <description>
         The Kayra AEM Foundation provides a set of enhancements to the Adobe Experience Manager foundation APIs and
@@ -138,22 +138,9 @@
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.1</version>
                     <configuration>
-                        <compilerId>groovy-eclipse-compiler</compilerId>
                         <source>1.8</source>
                         <target>1.8</target>
                     </configuration>
-                    <dependencies>
-                        <dependency>
-                            <groupId>org.codehaus.groovy</groupId>
-                            <artifactId>groovy-eclipse-compiler</artifactId>
-                            <version>3.4.0-01</version>
-                        </dependency>
-                        <dependency>
-                            <groupId>org.codehaus.groovy</groupId>
-                            <artifactId>groovy-eclipse-batch</artifactId>
-                            <version>2.4.17-01</version>
-                        </dependency>
-                    </dependencies>
                 </plugin>
                 <plugin>
                     <artifactId>maven-resources-plugin</artifactId>

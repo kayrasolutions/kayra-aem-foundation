@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1589197529250
+Build-Jdk: 11.0.7
+Built-By: rajeevdubey
+Bundle-Description: The Kayra AEM Foundation provides a set of enhanceme
+ nts to the Adobe Experience Manager foundation APIs and        addition
+ al Sling Models Injectors to facilitate rapid development of AEM compon
+ ents and services.
+Bundle-DocURL: http://www.kayrasolutions.com
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Kayra AEM Foundation Injectors
+Bundle-SymbolicName: kayra-aem-foundation-injectors
+Bundle-Vendor: Kayra Solutions
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.kayrasolutions.aem.foundation.injectors.annotations;
+ version="1.0.0"
+Originally-Created-By: Apache Maven Bundle Plugin
+Tool: Bnd-4.2.0.201903051501
