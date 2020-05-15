@@ -29,6 +29,7 @@ bin/
 target/
 build/
 *.factorypath
+src/main/resources/META-INF/MANIFEST.MF
 
 # IDEs and editors
 /.idea
