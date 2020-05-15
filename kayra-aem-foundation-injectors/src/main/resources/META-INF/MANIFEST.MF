@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1589522067807
-Build-Jdk: 11.0.7
-Built-By: rajeevdubey
+Bnd-LastModified: 1589538981885
+Build-Jdk: 1.8.0_40
+Built-By: Rajeev Dubey
 Bundle-Description: The Kayra AEM Foundation provides a set of enhanceme
  nts to the Adobe Experience Manager foundation APIs and        addition
  al Sling Models Injectors to facilitate rapid development of AEM compon
@@ -15,9 +15,9 @@ Bundle-Vendor: Kayra Solutions
 Bundle-Version: 1.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin
 Export-Package: com.kayrasolutions.aem.foundation.injectors.annotations;
- uses:="org.apache.sling.models.annotations,org.apache.sling.models.anno
- tations.injectorspecific,org.apache.sling.models.spi.injectorspecific";
- version="1.0.0"
+ version="1.0.0";uses:="org.apache.sling.models.annotations,org.apache.s
+ ling.models.annotations.injectorspecific,org.apache.sling.models.spi.in
+ jectorspecific"
 Import-Package: com.day.cq.tagging;version="[5.9,6)",com.day.cq.wcm.api;
  version="[1.27,2)",com.day.cq.wcm.api.policies;version="[1.6,2)",com.da
  y.cq.wcm.foundation;version="[5.22,6)",com.google.common.collect;versio
@@ -26,14 +26,14 @@ Import-Package: com.day.cq.tagging;version="[5.9,6)",com.day.cq.wcm.api;
  )",com.kayrasolutions.aem.foundation.api.page;version="[1.0,2)",com.kay
  rasolutions.aem.foundation.api.resource;version="[1.0,2)",com.kayrasolu
  tions.aem.foundation.core.link.builders.factory;version="[1.0,2)",com.k
- ayrasolutions.aem.foundation.injectors.annotations,javax.inject,javax.s
- ervlet;version="[3.1,4)",org.apache.commons.lang3;version="[3.5,4)",org
- .apache.sling.api;version="[2.3,3)",org.apache.sling.api.resource;versi
- on="[2.11,3)",org.apache.sling.api.scripting;version="[2.3,3)",org.apac
- he.sling.models.annotations;version="[1.5,2)",org.apache.sling.models.a
- nnotations.injectorspecific;version="[1.1,2)",org.apache.sling.models.s
- pi;version="[1.2,2)",org.apache.sling.models.spi.injectorspecific;versi
- on="[1.1,2)",org.slf4j;version="[1.7,2)"
+ ayrasolutions.aem.foundation.injectors.annotations;version="[1.0,2)",ja
+ vax.inject,javax.servlet;version="[3.1,4)",org.apache.commons.lang3;ver
+ sion="[3.5,4)",org.apache.sling.api;version="[2.3,3)",org.apache.sling.
+ api.resource;version="[2.11,3)",org.apache.sling.api.scripting;version=
+ "[2.3,3)",org.apache.sling.models.annotations;version="[1.5,2)",org.apa
+ che.sling.models.annotations.injectorspecific;version="[1.1,2)",org.apa
+ che.sling.models.spi;version="[1.2,2)",org.apache.sling.models.spi.inje
+ ctorspecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
 Originally-Created-By: Apache Maven Bundle Plugin
 Provide-Capability: osgi.service;objectClass:List<String>="org.apache.sl
  ing.models.spi.Injector"

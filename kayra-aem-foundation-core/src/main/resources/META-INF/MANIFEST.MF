@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1589522065498
-Build-Jdk: 11.0.7
-Built-By: rajeevdubey
+Bnd-LastModified: 1589538875681
+Build-Jdk: 1.8.0_40
+Built-By: Rajeev Dubey
 Bundle-Description: The Kayra AEM Foundation provides a set of enhanceme
  nts to the Adobe Experience Manager foundation APIs and        addition
  al Sling Models Injectors to facilitate rapid development of AEM compon
